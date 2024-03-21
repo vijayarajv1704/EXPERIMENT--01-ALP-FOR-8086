@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : Vijayaraj V
+
+Roll no : 212222230174
+
+Date of experiment : 18-03-2024
 
 
 
@@ -15,12 +17,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
  ## Running the Emulator :
 1.	Download and install emu8086 (www.emu8086.com) It is usually installed in C:\EMU8086 subfolder in the “Windows” directory
-2.	  Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
+2.	Run  emu8086 icon (on the desktop or in the c:\EMU8086 folder of window) It has green color 
  
  
-3.		write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
+3.	write the code for the appropriate program for ADDITION,SUBTRACTION, MULTIPLICATION,  DIVISION operations 
 
-4.	 Compile the program and check for the errors 
+4.	Compile the program and check for the errors 
 5.	Run (once there is no syntax error) 
 
 6.	Click OK to see/view the output of your program on the Emulator screen. 
@@ -30,7 +32,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 8.	 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273263-d65baae9-4b8f-4723-afb3-c0ffa4052b04.png)
+![image](https://github.com/vijayarajv1704/EXPERIMENT--01-ALP-FOR-8086/assets/121303741/5a6e6b2d-d1c2-40ca-940a-74d744f80c41)
 
 
 
@@ -51,7 +53,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273273-9bb36ec1-e2e8-4892-8d35-37707332bfdc.png)
+![image](https://github.com/vijayarajv1704/EXPERIMENT--01-ALP-FOR-8086/assets/121303741/a6b3defc-7865-48bd-9b23-bd6aeac66c00)
 
 
 
@@ -67,7 +69,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-![image](https://user-images.githubusercontent.com/36288975/189273277-113a2a33-4a40-4ff8-95a5-ecd3a1f504fe.png)
+![image](https://github.com/vijayarajv1704/EXPERIMENT--01-ALP-FOR-8086/assets/121303741/16d14519-cbe2-4c80-9629-272ee3d02f27)
 
 
 
@@ -79,29 +81,63 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+MOV al,34h
+
+MOV bl,64h
+
+ADD al,bl    
+
+hlt
 
 
 ## Output  
  
+![image](https://github.com/vijayarajv1704/EXPERIMENT--01-ALP-FOR-8086/assets/121303741/aaaef44e-924b-4d82-bf42-22cfe603f1a9)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
+
+MOV al,34h
+
+MOV bl,64h
+
+SUB al,bl    
+
+hlt
+
 ## Output  
+
+![image](https://github.com/vijayarajv1704/EXPERIMENT--01-ALP-FOR-8086/assets/121303741/5d336a0c-254f-49ca-b3e3-207d5ca805ac)
+
 ## Multiplication alp 
- ## Output  
+
+MOV al,34h
+
+MOV bl,64h
+
+MUL bl    
+
+hlt
+
+## Output  
+
+![image](https://github.com/vijayarajv1704/EXPERIMENT--01-ALP-FOR-8086/assets/121303741/64f5a473-921b-4726-b829-bde52d639bb8)
 
 
 ## Division alp 
 
+MOV al,34h
+
+MOV bl,64h
+
+DIV bl    
+
+hlt
+
 ## Output  
+
+![div 8 bit ](https://github.com/vasanthkumarch/EXPERIMENT--01-ALP-FOR-8086/assets/150010919/0fd6b62f-3162-48a9-8392-7720537ef908)
 
 
 ## Result :
  
-
-
-
-
-
-
-
-
+Thus to Write and execute ALP on fundamental arithmetic and logical operations are verified successfully.
